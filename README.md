@@ -1,10 +1,10 @@
 # Texas A&M Football Recruits Web Scrape Project
  
-With football season around the corner I figured it would be intersting to see where all the recruits are coming from. If you went to Texas A&M you can make a pretty good guess where the recruits are coming from, looking at you Houston, but there was a suprising amopunt of recruits from all over.
+With football season around the corner, I figured it would be interesting to see where all the recruits are coming from. If you went to Texas A&M you can make a pretty good guess where the recruits are coming from, looking at you Houston, but there was a surprising number of recruits from all over.
 
-This data was taken direcxtly from teh A&M football page and placed into my SQL server wghere it is housed and presented using tableau. The Website unfortunaly decided to change the formatting of their data just about every year so the code might look a little overkill but unfortunaly this is what it required.
+This data was taken directly from the A&M football page and placed into my SQL server where it is housed and presented using tableau. The Website unfortunately decided to change the formatting of their data just about every year so the code might look a little overkill but unfortunately this is what it required.
 
-My script first opens the main page and collects the links associated with all of the players, with a few years as the exceptions due to a change in formatting. After links are collected the script will upen up each link and scrpae the data from that specific player, the scraped data is then processed and sent to the SQL server. The data is sent to the server after every year so that if the format changed the data it did collect will not be lost if the script fails.
+My script first opens the main page and collects the links associated with all the players, with a few years as the exceptions due to a change in formatting. After links are collected the script will open each link and scrape the data from that specific player, the scraped data is then processed and sent to the SQL server. The data is sent to the server after every year so that if the format changed the data, it did collect will not be lost if the script fails.
 
 Below is the Dashboard created in Tableau to present the data, here you can see the hotspots of the recruiting along with the top schools, average height, average weight, and the top position.
 
